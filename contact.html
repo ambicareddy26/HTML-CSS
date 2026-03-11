@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <style>
+        .college{
+          font-size: 30px;
+          font-weight: bold;
+          text-align: center;
+          background-color: skyblue;
+          padding:30px;
+        }
+        .college:hover{
+          background-color: rgb(241, 133, 56);
+        }
+        .contents{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          background-color: black;
+          color: white;
+          padding: 5px;
+        }
+
+        .contents div{
+          font-size: 22px;
+          margin-left:50px;
+          padding: 8px;
+        }
+        .contents div:hover{
+          background-color: rgb(241, 133, 56);
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        .contents div:active{
+          opacity: 0.8;
+        }
+        .contents a{
+          text-decoration: none;
+          color: white;
+        }
+        
+        .footer{
+            background-color: black;
+            text-align: center;
+            padding:30px;
+            color:white;
+            font-size: 20px;
+        }
+        .data{
+            height: 400px;
+            border: 1px solid black;
+            margin: 20px;
+            background-color: rgb(190, 188, 188);
+        }
+        .contact h1{
+          margin-top: 60px;
+          text-align: center;
+          font-size: 50px;
+          text-decoration: underline;
+        }
+        .contact p{
+          font-size: 22px;
+          text-decoration: none;
+          text-align: center;
+        }
+        .mail:hover{
+          text-decoration: underline;
+          cursor: pointer;
+        }
+  </style>
+</head>
+<body>
+  <div class="header">
+        <div class="college">Annamacharya University</div>
+        <div class="contents">
+            <div><a href="Home.html">Back to home</a></div>
+            <div><a href="about.html">About</a></div>
+            <div><a href="contact.html">Contact</a></div>
+            <div><a href="results.html">Exam Results</a></div>
+        </div>
+  </div>
+  <div class="data">
+    <div class="contact">
+      <h1>Contact Us</h1>
+      <p>Phno: +91 8565-251252</p>
+      <p class="mail">info@annamacharyauniversity.edu.in</p>
+    </div>
+  </div>
+
+    <div class="footer">
+        @2026 My Website
+    </div>
+</body>
+</html>
